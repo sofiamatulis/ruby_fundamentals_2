@@ -23,3 +23,10 @@ puts grocery_list[1]
 grocery_list.sort.each do |grocery|
   puts "*" + grocery
 end
+
+
+
+
+grocery_list.delete_at(3)
+
+puts grocery_list
