@@ -23,3 +23,8 @@ puts students.keys
 students.each do |key,value|
   puts "#{value * 1.05}"
 end
+
+
+students.delete(:cohort2)
+
+puts students
