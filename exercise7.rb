@@ -28,3 +28,15 @@ end
 students.delete(:cohort2)
 
 puts students
+
+
+def sum_of_students(students)
+  sum = 0
+students.each do |key,value|
+  sum += value
+end
+puts "The total amount of students is #{sum}"
+end
+
+
+sum_of_students (students)
