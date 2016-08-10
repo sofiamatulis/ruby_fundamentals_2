@@ -10,9 +10,16 @@ students.each do |key,value|
 end
 
 
-students[:cohort4] = [43]
+students[:cohort4] = 43
 
 puts students
 
 
 puts students.keys
+
+
+
+
+students.each do |key,value|
+  puts "#{value * 1.05}"
+end
