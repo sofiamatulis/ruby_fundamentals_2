@@ -18,3 +18,8 @@ end
 
 
 puts grocery_list[1]
+
+
+grocery_list.sort.each do |grocery|
+  puts "*" + grocery
+end
